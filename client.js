@@ -1,8 +1,8 @@
 // npm install soap
 import soap from 'soap';
 
-//const url = 'http://localhost:8000/wsdl?wsdl';
-const url = 'https://uncademyinterface.team-uncademy.repl.co/wsdl?wsdl';
+const url = 'http://localhost:8000/wsdl?wsdl';
+// const url = 'https://uncademyinterface.team-uncademy.repl.co/wsdl?wsdl';
 
 // Create client
 soap.createClient(url, function(err, client) {
